@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<body style="background-color:powderblue;">
 <head>
 <style>
 table {
@@ -7,15 +8,17 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #FF0000;
     text-align: left;
     padding: 8px;
 }
-
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #C0C0C0;
+}
+table#t01 th{
+    background-color: black;
+    color: black;
 }
 </style>
 </head>
@@ -23,14 +26,14 @@ tr:nth-child(even) {
 
 <h2>HTML Table</h2>
 
-<table>
+<table id="t01">
   <tr>
-    <th><p style="color:blue;">Name</th>
-    <th><p style="color:blue;">Position</th>
-    <th><p style="color:blue;">Office</th>
-    <th><p style="color:blue;">Age</th>
-    <th><p style="color:blue;">Start date</th>
-    <th><p style="color:blue;">Salary</th>
+    <th><p style="font-family:Verdana;color:white;">Name</th>
+    <th><p style="font-family:Verdana;color:white;">Position</th>
+    <th><p style="font-family:Verdana;color:white;">Office</th>
+    <th><p style="font-family:Verdana;color:white;">Age</th>
+    <th><p style="font-family:Verdana;color:white;">Start date</th>
+    <th><p style="font-family:Verdana;color:white;">Salary</th>
   </tr>
   <tr>
     <td>Airi satou</td>
