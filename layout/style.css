@@ -42,12 +42,12 @@
 	width:900px; 
 	height:480px;
 	margin: 0 auto;
-	background: black;
+	background: aqua;
 }
 .subc{
 	width: 290px;
-	height: 380px;
-	background: silver;
+	height: 450px;
+	background: black;
 	border-radius: 10px;
 	float: left;
 	margin: 5px;
